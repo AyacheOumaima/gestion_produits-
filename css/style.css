@@ -1,0 +1,19 @@
+/* Style personnalisé pour la navbar-primary */
+.navbar-primary {
+    background-color: #337ab7; /* Couleur de fond bleu primaire */
+    border-color: #2e6da4; /* Couleur de bordure */
+}
+
+.navbar-primary .navbar-brand,
+.navbar-primary .navbar-nav > li > a {
+    color: #ffffff; /* Couleur blanche pour le texte */
+}
+
+/* Couleur du texte au survol et pour les liens actifs */
+.navbar-primary .navbar-brand:hover,
+.navbar-primary .navbar-nav > li > a:hover,
+.navbar-primary .navbar-nav > .active > a,
+.navbar-primary .navbar-nav > .active > a:hover {
+    color: #cceeff; /* Couleur de survol */
+    background-color: transparent; /* Arrière-plan transparent */
+}
